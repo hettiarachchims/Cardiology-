@@ -1,0 +1,137 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .about-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .about-intro {
+    padding: 50px 20px;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+  }
+  
+  .about-intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-intro p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+ 
+  .vision-mission {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .vision,
+  .mission {
+    flex: 1;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vision h2,
+  .mission h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .vision p,
+  .mission p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Team Section */
+  .team {
+    padding: 50px 20px;
+    background-color: #eaf7ff;
+  }
+  
+  .team h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .team-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+  }
+  
+  .team-card img {
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .team-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+ 
+  .why-choose-us {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .why-choose-us ul {
+    list-style-type: disc;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+    padding-left: 20px;
+  }
+  
+  .why-choose-us li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
